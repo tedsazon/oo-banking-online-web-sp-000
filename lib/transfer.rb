@@ -10,6 +10,7 @@ class Transfer
   end
 
   def valid?
-    sender.bankaccount == "open" && 
+    sender.bankaccount == "open" &&
     receiver.bankaccount == "open"
+  end
 end
